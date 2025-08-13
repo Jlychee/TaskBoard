@@ -1,0 +1,46 @@
+# === Git ===
+.git
+.gitignore
+
+# === Python cache ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.mypy_cache/
+.pytest_cache/
+
+# === Virtualenv ===
+.venv/
+venv/
+env/
+
+# === Node / Frontend ===
+node_modules/
+dist/
+build/
+.vite/
+*.tsbuildinfo
+
+# === Environment ===
+.env
+.env.*
+!.env.example
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === PyCharm ===
+.idea/
+*.iml
+
+# === Logs ===
+*.log
+logs/
